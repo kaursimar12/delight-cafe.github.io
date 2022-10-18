@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+}
+
+#main{
+    background-color: rgb(202, 196, 196);
+    color: black;
+    position:absolute;
+    padding:50px;
+    border: 2px solid grey;
+    width:fit-content;
+    box-shadow: 6px 6px rgb(68, 66, 66);
+}
+.input{
+    box-shadow: 2px 2px rgb(180, 178, 178);
+    border-radius: 10px;
+    padding-left:10px;
+    width: 300px;
+    height: 30px;
+}
+button{
+    width:100px;
+    height: 30px;
+    border-radius: 30px;
+}
+@media only screen and (max-width:1000px){
+    .input{
+        width:150px;
+        height:20px;
+    }
+    #main{
+        position: absolute;
+        margin:20% 30%;
+        padding:50px;
+        width:fit-content;
+    }
+    
+}
